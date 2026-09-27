@@ -1,0 +1,65 @@
+:root {
+  --color-paper: oklch(97.5% 0.006 92);
+  --color-paper-2: oklch(94.5% 0.008 92);
+  --color-paper-3: oklch(90.5% 0.01 92);
+  --color-ink: oklch(22% 0.035 248);
+  --color-ink-soft: oklch(36% 0.028 248);
+  --color-muted: oklch(48% 0.016 248);
+  --color-rule: oklch(82% 0.012 92);
+  --color-rule-strong: oklch(52% 0.025 248);
+  --color-accent: oklch(52% 0.16 248);
+  --color-accent-ink: oklch(98% 0.006 92);
+  --color-focus: oklch(48% 0.2 260);
+  --color-into: oklch(63% 0.16 240);
+  --color-into-soft: oklch(94% 0.035 240);
+  --color-for: oklch(72% 0.17 78);
+  --color-for-soft: oklch(96% 0.04 78);
+  --color-through: oklch(68% 0.15 135);
+  --color-through-soft: oklch(95% 0.035 135);
+  --color-warning: oklch(58% 0.16 62);
+  --color-warning-soft: oklch(95% 0.04 62);
+  --color-overlay: oklch(20% 0.025 245 / 0.78);
+
+  --font-display: "Noto Serif SC", "Songti SC", serif;
+  --font-body: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", monospace;
+
+  --text-xs: 0.8rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.953rem;
+  --text-2xl: 2.441rem;
+  --text-3xl: 3.052rem;
+  --text-display: clamp(2.7rem, 3.65vw, 4.25rem);
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --page-gutter: clamp(1rem, 4vw, 4rem);
+  --content-wide: 84rem;
+  --content-prose: 68ch;
+  --rule-hair: 1px;
+  --radius-sm: 0.2rem;
+  --radius-md: 0.35rem;
+  --radius-round: 999px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+  --z-base: 1;
+  --z-raised: 10;
+  --z-sticky: 200;
+  --z-dialog: 400;
+}

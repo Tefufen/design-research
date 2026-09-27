@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="对设计的研究、为设计的研究与通过设计的研究：概念、关系、论文实例与分类讨论。">
+  <title>三种设计研究的类型</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至正文</a>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  <header class="nav-mast">
+    <a class="mast-brand" href="#main" aria-label="返回页面顶部">
+      <span class="mast-name">三种设计研究</span>
+      <span class="mast-line">Week 02 / 2025-2026</span>
+    </a>
+    <nav class="mast-nav" aria-label="内容导航">
+      <ul>
+        <li><a href="#relations">逻辑关系</a></li>
+        <li><a href="#types">三种类型</a></li>
+        <li><a href="#papers">论文实例</a></li>
+        <li><a href="#compare">并排比较</a></li>
+        <li><a href="#practice">判断练习</a></li>
+        <li><a href="#debate">分类争议</a></li>
+        <li><a href="#references">参考文献</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero__copy">
+        <h1 class="hero__title" id="page-title">设计在研究中，究竟扮演什么角色？</h1>
+        <p class="hero__lede">Into、For 与 Through 不是按步骤排列的三段流程，而是三种不同的研究取向。区分它们，关键在于研究目的、设计在研究中的位置，以及最终形成什么知识。</p>
+      </div>
+      <div class="hero__atlas" aria-label="三篇论文图像索引">
+        <a class="hero-plate hero-plate--into" href="#paper-into">
+          <span class="hero-plate__image"><img src="assets/image3.png" width="1270" height="760" fetchpriority="high" alt="公共部门设计实践论文中的实施挑战关系图"></span>
+          <span class="hero-plate__caption"><strong>Into</strong><span>解释设计实践</span></span>
+        </a>
+        <a class="hero-plate hero-plate--for" href="#paper-for">
+          <span class="hero-plate__image"><img src="assets/image4.jpeg" width="715" height="423" alt="儿童嗅觉故事设计框架"></span>
+          <span class="hero-plate__caption"><strong>For</strong><span>支持设计决策</span></span>
+        </a>
+        <a class="hero-plate hero-plate--through" href="#paper-through">
+          <span class="hero-plate__image"><img src="assets/image5.jpeg" width="715" height="127" alt="AnimaTo 纺织物的三种形态"></span>
+          <span class="hero-plate__caption"><strong>Through</strong><span>通过设计生成知识</span></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section section--tight" id="relations" aria-labelledby="relations-title">
+      <header class="section__head">
+        <h2 class="section__title" id="relations-title">三种取向彼此往返，而非排成直线</h2>
+        <p class="section__intro">点击任一节点查看定义与论文实例。双向箭头表示研究知识与设计实践之间存在持续反馈。</p>
+      </header>
+      <div class="relation-layout">
+        <div class="relation-map" aria-label="三种设计研究类型的逻辑关系图">
+          <svg class="relation-lines" viewBox="0 0 1440 1440" aria-hidden="true">
+            <defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="6" markerHeight="6" orient="auto"><path class="relation-arrowhead" d="M2 2 L10 6 L2 10"/></marker></defs>
+            <path d="M480 475 L260 865" marker-end="url(#arrow)"/>
+            <path d="M320 870 L525 500" marker-end="url(#arrow)"/>
+            <path d="M920 500 L1120 870" marker-end="url(#arrow)"/>
+            <path d="M1170 865 L965 475" marker-end="url(#arrow)"/>
+            <path d="M855 1180 L585 1180" marker-end="url(#arrow)"/>
+            <path d="M585 1230 L855 1230" marker-end="url(#arrow)"/>
+            <text x="240" y="660" text-anchor="middle"><tspan x="240">理论支持与</tspan><tspan x="240" dy="30">实践启发</tspan></text>
+            <text x="555" y="725" text-anchor="middle"><tspan x="555">实践发现问题</tspan><tspan x="555" dy="30">反向推动研究</tspan></text>
+            <text x="875" y="725" text-anchor="middle"><tspan x="875">研究提供背景与依据</tspan><tspan x="875" dy="30">支持设计决策</tspan></text>
+            <text x="1230" y="660" text-anchor="middle"><tspan x="1230">设计实践产生新问题</tspan><tspan x="1230" dy="30">推动理论研究</tspan></text>
+            <text x="720" y="1140" text-anchor="middle">实践经验指导设计方向</text>
+            <text x="720" y="1300" text-anchor="middle">设计需求促进资料搜集与分析</text>
+          </svg>
+          <button class="research-node" type="button" data-type="into" aria-pressed="false">
+            <span class="research-node__en">Research<br> into Design</span>
+            <span class="research-node__facts">
+              <span class="research-node__fact"><strong>研究目的</strong><span>了解设计现象、流程、历史和趋势等问题</span></span>
+              <span class="research-node__fact"><strong>设计角色</strong><span>作为被观察和分析的对象</span></span>
+              <span class="research-node__fact"><strong>知识贡献</strong><span>形成对设计历史、理论、文化及规律的认识</span></span>
+            </span>
+          </button>
+          <button class="research-node" type="button" data-type="through" aria-pressed="false">
+            <span class="research-node__en">Research<br> through Design</span>
+            <span class="research-node__facts">
+              <span class="research-node__fact"><strong>研究目的</strong><span>在设计实践中探索问题，寻找新的可能性</span></span>
+              <span class="research-node__fact"><strong>设计角色</strong><span>作为研究方法和探索过程</span></span>
+              <span class="research-node__fact"><strong>知识贡献</strong><span>通过原型、实践和反思，形成新的方法、经验或设计知识</span></span>
+            </span>
+          </button>
+          <button class="research-node" type="button" data-type="for" aria-pressed="false">
+            <span class="research-node__en">Research<br> for Design</span>
+            <span class="research-node__facts">
+              <span class="research-node__fact"><strong>研究目的</strong><span>为具体设计任务提供信息与依据</span></span>
+              <span class="research-node__fact"><strong>设计角色</strong><span>作为应用方向、支撑设计决策</span></span>
+              <span class="research-node__fact"><strong>知识贡献</strong><span>通过原型、实践和反思，形成新的方法、经验或设计知识</span></span>
+            </span>
+          </button>
+        </div>
+        <aside>
+          <div class="relation-panel" id="relation-panel" aria-live="polite"></div>
+          <div class="relation-explanation">
+          <h3>逻辑关系介绍</h3>
+          <ul class="relation-legend" aria-label="连线含义">
+            <li>Into → Through：理论支持与实践启发。</li>
+            <li>Through → Into：实践发现问题，反向推动研究。</li>
+            <li>Into → For：研究提供背景与依据，支持设计决策。</li>
+            <li>For → Into：设计实践产生新问题，推动理论研究。</li>
+            <li>For → Through：实践经验指导设计方向。</li>
+            <li>Through → For：设计需求促进资料搜集与分析。</li>
+          </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="types" aria-labelledby="types-title">
+      <header class="section__head">
+        <h2 class="section__title" id="types-title">判断类型，要看知识如何产生</h2>
+        <p class="section__intro">是否制作原型并不是唯一标准。同一研究可能包含多种活动，分类应根据主要研究目的和主要知识贡献判断。</p>
+      </header>
+      <div class="type-essay">
+        <article class="type-block" data-type="into">
+          <header class="type-block__head"><h3>对设计的研究</h3><p class="type-block__question">设计是什么，为什么会这样？</p></header>
+          <dl class="definition-list">
+            <div><dt>研究目的</dt><dd>从历史、文化、社会、理论或技术视角解释设计现象及其形成机制。</dd></div>
+            <div><dt>设计的角色</dt><dd>设计作品、流程、历史与文化是被观察、分析和解释的对象。</dd></div>
+            <div><dt>知识贡献</dt><dd>设计史、分类体系、理论模型、概念解释、批判性分析或趋势判断。</dd></div>
+          </dl>
+          <div class="prose"><p><strong>典型方法：</strong>文献与档案研究、案例研究、访谈、民族志、内容分析、话语分析、视觉分析、问卷与统计研究。</p></div>
+        </article>
+        <article class="type-block" data-type="for">
+          <header class="type-block__head"><h3>为设计的研究</h3><p class="type-block__question">为了把设计做好，需要知道什么？</p></header>
+          <dl class="definition-list">
+            <div><dt>研究目的</dt><dd>为尚未完成的设计提供可靠信息、原则、技术、工具或方法。</dd></div>
+            <div><dt>设计的角色</dt><dd>设计是被支持的实践，研究证据用于降低设计决策的不确定性。</dd></div>
+            <div><dt>知识贡献</dt><dd>用户洞察、设计需求、规范、原则、工具包、技术方案或服务框架。</dd></div>
+          </dl>
+          <div class="prose"><p><strong>典型方法：</strong>用户研究、需求分析、情境调查、实验研究、可用性测试、材料测试、竞品研究、证据综合与参与式研究。</p></div>
+        </article>
+        <article class="type-block" data-type="through">
+          <header class="type-block__head"><h3>通过设计的研究</h3><p class="type-block__question">通过实际设计，我们能发现什么？</p></header>
+          <dl class="definition-list">
+            <div><dt>研究目的</dt><dd>通过制作、部署和反思产生仅靠观察难以获得的具身、材料性与体验性知识。</dd></div>
+            <div><dt>设计的角色</dt><dd>设计是研究方法和知识媒介；设计物用于提出问题、触发现象与形成认识。</dd></div>
+            <div><dt>知识贡献</dt><dd>研究性设计物、过程记录、实践案例、强概念、体验性知识及新方法。</dd></div>
+          </dl>
+          <div class="prose"><p><strong>典型方法：</strong>迭代原型、材料实验、制作实践、推测性与批判性设计、共同设计、田野部署、反思日志和过程记录。</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="papers" aria-labelledby="papers-title">
+      <header class="section__head">
+        <h2 class="section__title" id="papers-title">三篇论文，三种主要取向</h2>
+        <p class="section__intro">归类不只看作者做了什么，还要看这些活动最终服务于哪一种知识贡献。</p>
+      </header>
+      <div class="paper-list">
+        <article class="paper" id="paper-into" data-type="into">
+          <header class="paper__identity"><p class="paper__type">Research into Design</p><h3>From Ideas to Change: Emergent Design Practices to Overcome Implementation Challenges When Designing in the Public Sector</h3><p class="paper__citation">van Arkel et al. / International Journal of Design / 2025</p></header>
+          <figure class="paper__figure paper__figure--wide">
+            <button class="figure-button" type="button" data-full="assets/image3.png" data-caption="三个层面的实施挑战与设计实践" aria-label="放大查看三个层面的实施挑战与设计实践">
+              <img src="assets/image3.png" width="1270" height="760" loading="lazy" alt="三个层面的实施挑战、实施实践与设计实践关系图">
+            </button>
+            <figcaption>三个层面的实施挑战与设计实践</figcaption>
+          </figure>
+          <div class="paper__grid">
+            <div class="paper__main">
+              <div><h4>研究问题与背景</h4><p>公共部门设计项目常停留在创意、工作坊或原型阶段。论文追问：外部设计师与公共部门合作时，哪些新兴实践能够帮助成果落地并形成持续影响？</p></div>
+              <div><h4>研究方法与设计角色</h4><p>研究回顾四个荷兰公共安全案例，开展 16 次半结构式访谈并分析项目文件，通过两轮归纳编码识别挑战与应对实践。设计合作和实施实践是被观察的对象，不是研究者用来生成知识的新设计产物。</p></div>
+              <div><h4>主要贡献</h4><ul><li>识别项目、组织与系统三个层面的 8 项实施挑战。</li><li>归纳 13 项设计实践与三个实施实践组合。</li><li>提出包含三组张力的初步“张力驱动实施框架”。</li></ul></div>
+            </div>
+            <aside class="paper__aside">
+              <div><h4>归类判断</h4><p>研究对象是设计实践本身，成果是对实践的分类、解释和概念框架，因此以 Into 为主。结果可支持未来设计，带有次级 For 取向。</p></div>
+              <div><h4>研究局限</h4><p>案例集中于荷兰公共安全领域；回顾性访谈存在记忆偏差；只考察外部设计师；探索性案例不能证明因果关系。</p></div>
+              <details><summary>查看原文位置</summary><ul class="evidence-list"><li>第 58 页，Introduction 最后一段</li><li>第 59-61 页，Research Method 与 Data Collection and Analysis</li><li>第 64 页，Figure 2</li><li>第 70-71 页，Limitations、Conclusion</li></ul></details>
+              <a class="paper__doi" href="https://doi.org/10.57698/v19i2.05" target="_blank" rel="noreferrer">打开 DOI</a>
+            </aside>
+          </div>
+        </article>
+
+        <article class="paper" id="paper-for" data-type="for">
+          <header class="paper__identity"><p class="paper__type">Research for Design</p><h3>Research-based Design Principles for the Integration of Olfaction into Young Children's Stories</h3><p class="paper__citation">Kucirkova & Campbell / International Journal of Design / 2025</p></header>
+          <figure class="paper__figure paper__figure--offset">
+            <button class="figure-button" type="button" data-full="assets/image4.jpeg" data-caption="儿童嗅觉故事的原则与预期体验" aria-label="放大查看儿童嗅觉故事设计框架">
+              <img src="assets/image4.jpeg" width="715" height="423" loading="lazy" alt="儿童嗅觉故事设计原则与参与度关系框架">
+            </button>
+            <figcaption>儿童嗅觉故事的原则与预期体验</figcaption>
+          </figure>
+          <div class="paper__grid">
+            <div class="paper__main">
+              <div><h4>研究问题与背景</h4><p>儿童嗅觉故事缺少系统设计指导。论文研究如何把儿童对气味媒介的实际反应，转化为适用于纸质图书、数字应用和其他故事媒介的设计原则。</p></div>
+              <div><h4>研究方法与设计角色</h4><p>论文综合可供性理论、读者交易理论与三项实证研究：故事展览观察、10 个家庭的共读研究，以及 67 名儿童参与的数字故事实验。气味盒、闻香图书和“iPad＋气味罐”是证据收集载体，最终服务对象是未来设计实践。</p></div>
+              <div><h4>主要贡献</h4><ul><li>提出顺序、强度、节奏与一致性四项核心原则。</li><li>强调互动性与儿童能动性。</li><li>形成面向儿童嗅觉故事的设计框架。</li></ul></div>
+            </div>
+            <aside class="paper__aside">
+              <div><h4>归类判断</h4><p>研究最终产出是未来设计可直接采用的原则和框架，因此以 For 为主。研究使用设计媒介开展实验，具有次级 Through 特征。</p></div>
+              <div><h4>研究局限</h4><p>参与度提升未转化为学习效果；自动气味释放技术受成本与成熟度限制；儿童对气味的反应存在明显个体差异。</p></div>
+              <details><summary>查看原文位置</summary><ul class="evidence-list"><li>第 46 页，Our Study Aims and Objectives</li><li>第 47 页，Introduction 最后一段</li><li>第 50-53 页，Three Empirical Studies</li><li>第 54-55 页，Design Principles 与 Figure 2</li></ul></details>
+              <a class="paper__doi" href="https://doi.org/10.57698/v19i1.03" target="_blank" rel="noreferrer">打开 DOI</a>
+            </aside>
+          </div>
+        </article>
+
+        <article class="paper" id="paper-through" data-type="through">
+          <header class="paper__identity"><p class="paper__type">Research through Design</p><h3>Exploring Everyday Experiences of a Multimorphic Textile-form Artifact</h3><p class="paper__citation">Buso et al. / International Journal of Design / 2025</p></header>
+          <figure class="paper__figure paper__figure--textile">
+            <button class="figure-button" type="button" data-full="assets/image5.jpeg" data-caption="AnimaTo 的初始、收缩与展开状态" aria-label="放大查看 AnimaTo 三种形态">
+              <img src="assets/image5.jpeg" width="715" height="127" loading="lazy" alt="AnimaTo 纺织物初始、收缩和展开三种状态">
+            </button>
+            <figcaption>AnimaTo 的初始、收缩与展开状态</figcaption>
+          </figure>
+          <div class="paper__grid">
+            <div class="paper__main">
+              <div><h4>研究问题与背景</h4><p>论文探索纺织物的形态变化如何促成新的互动、创造性用途与意外行为，以及动态材料的行为可供性如何在日常使用中变化。</p></div>
+              <div><h4>研究方法与设计角色</h4><p>研究者设计可变形纺织物 AnimaTo，并将其部署到荷兰 8 个家庭，由 16 名成年人使用约 14 天。访谈、材料体验评价、参与者照片与 BLE 运动传感数据共同支持分析。AnimaTo 同时是研究对象和触发现象的研究工具。</p></div>
+              <div><h4>主要贡献</h4><ul><li>揭示动态纺织体验由功能、时间性与材料性共同塑造。</li><li>提出材料体验评价与连续运动感测结合的方法。</li><li>指出开放性与不同形态的功能可理解性需要并存。</li></ul></div>
+            </div>
+            <aside class="paper__aside">
+              <div><h4>归类判断</h4><p>知识直接产生于 AnimaTo 的设计、部署与实际使用。设计不是结论之后的展示，而是提出问题和生成认识的核心方法，因此以 Through 为主。</p></div>
+              <div><h4>研究局限</h4><p>研究期只有约两周，可能存在新奇效应；访谈不能捕捉所有即时反应；传感器无法识别具体动作与地点。</p></div>
+              <details><summary>查看原文位置</summary><ul class="evidence-list"><li>第 1 页，Introduction 最后两段</li><li>第 5-8 页，Methodology、Design Rationale、Data Collection 与 Analysis</li><li>第 5 页，Figure 2</li><li>第 9-18 页，Results、Discussion 与 Limitations</li></ul></details>
+              <a class="paper__doi" href="https://doi.org/10.57698/v19i3.01" target="_blank" rel="noreferrer">打开 DOI</a>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="compare" aria-labelledby="compare-title">
+      <header class="section__head"><h2 class="section__title" id="compare-title">把判断标准放在同一行比较</h2><p class="section__intro">选择一种类型可暂时隐藏其他列，再次选择“全部”恢复并排阅读。</p></header>
+      <div class="compare-controls" aria-label="比较显示选项">
+        <button class="compare-button" type="button" data-compare="all" aria-pressed="true">全部</button>
+        <button class="compare-button" type="button" data-compare="into" aria-pressed="false">Into</button>
+        <button class="compare-button" type="button" data-compare="for" aria-pressed="false">For</button>
+        <button class="compare-button" type="button" data-compare="through" aria-pressed="false">Through</button>
+      </div>
+      <div class="comparison" id="comparison">
+        <div class="comparison__row"><p class="comparison__label">核心问题</p><p class="comparison__cell" data-type="into"><strong>Into</strong>设计是什么，为什么如此？</p><p class="comparison__cell" data-type="for"><strong>For</strong>做好设计，需要知道什么？</p><p class="comparison__cell" data-type="through"><strong>Through</strong>实际设计让我们发现什么？</p></div>
+        <div class="comparison__row"><p class="comparison__label">设计角色</p><p class="comparison__cell" data-type="into"><strong>Into</strong>被观察与解释的对象</p><p class="comparison__cell" data-type="for"><strong>For</strong>被研究证据支持的实践</p><p class="comparison__cell" data-type="through"><strong>Through</strong>研究方法与知识媒介</p></div>
+        <div class="comparison__row"><p class="comparison__label">典型产出</p><p class="comparison__cell" data-type="into"><strong>Into</strong>理论、分类、历史解释</p><p class="comparison__cell" data-type="for"><strong>For</strong>需求、原则、规范、工具</p><p class="comparison__cell" data-type="through"><strong>Through</strong>原型、强概念、体验性知识</p></div>
+        <div class="comparison__row"><p class="comparison__label">本页实例</p><p class="comparison__cell" data-type="into"><strong>Into</strong>公共部门设计实施实践</p><p class="comparison__cell" data-type="for"><strong>For</strong>儿童嗅觉故事设计原则</p><p class="comparison__cell" data-type="through"><strong>Through</strong>多形态纺织物 AnimaTo</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="practice" aria-labelledby="practice-title">
+      <header class="section__head">
+        <h2 class="section__title" id="practice-title">换一个情境，你会怎样判断？</h2>
+        <p class="section__intro">先看研究想知道什么，再看设计扮演的角色，最后看它贡献了什么知识。六个教学构造情境，不对应真实实验；参考判断不设总分。</p>
+      </header>
+      <div class="practice-guide"><strong>判断线索</strong><span>Into：解释设计</span><span>For：支持设计决策</span><span>Through：借设计生成知识</span></div>
+      <div id="practice-app" hidden>
+        <div class="practice-toolbar"><p id="practice-progress" role="status">已完成 0 / 6</p><button type="button" class="practice-button" id="practice-reset">全部重新尝试</button></div>
+        <div class="practice-layout">
+          <nav class="practice-nav" id="practice-nav" aria-label="选择练习题"></nav>
+          <div class="practice-workspace">
+            <p class="practice-kicker" id="practice-number"></p>
+            <h3 id="practice-question" tabindex="-1"></h3>
+            <p class="practice-scenario" id="practice-scenario"></p>
+            <p class="practice-extra" id="practice-extra" hidden></p>
+            <form id="practice-form">
+              <fieldset><legend>根据目前的信息，你的判断是：</legend><div class="practice-options" id="practice-options"></div></fieldset>
+              <button type="submit" class="practice-button practice-button--primary">查看判断依据</button>
+            </form>
+            <div class="practice-feedback" id="practice-feedback" role="status" hidden></div>
+            <button type="button" class="practice-button" id="practice-more" hidden>补充一条研究信息，再判断</button>
+            <div class="practice-pagination"><button type="button" class="practice-button" id="practice-prev">上一题</button><span id="practice-position"></span><button type="button" class="practice-button" id="practice-next">下一题</button></div>
+          </div>
+        </div>
+        <p class="practice-note">不收集个人数据，进度仅保留在本次页面打开期间。切换题目会保留选择；刷新页面或“全部重新尝试”会清空。</p>
+      </div>
+      <noscript><div class="practice-fallback"><p>当前未启用 JavaScript。你仍可先判断，再展开参考解释。</p>
+        <details><summary>01 座椅为什么被移动？</summary><p>观察既有自习室的座位使用并解释空间秩序：以 Into 为主，设计是研究对象。</p></details>
+        <details><summary>02 什么样的杯柄更适合握持？</summary><p>为一款新杯子研究握持尺寸和使用需求，形成规格：以 For 为主，研究支持具体设计决策。</p></details>
+        <details><summary>03 会变化的导视能带来什么？</summary><p>反复设计、部署可变化的标识并反思陌生人的空间理解：以 Through 为主，介入过程产生知识。</p></details>
+        <details><summary>04 临时座椅既探索行为，又指导改造</summary><p>设计介入生成关于协作的认识，并转化为改造原则：Through 与 For 交叉，主导取向取决于核心贡献。</p></details>
+        <details><summary>05 老标识既被解释，又启发新系统</summary><p>解释旧标识的文化含义，同时提出有证据支持的新系统需求：Into 与 For 交叉。</p></details>
+        <details><summary>06 做了三个原型，就算 Through 吗？</summary><p>只有“制作原型并访谈”的信息不足以分类。若补充说明是在比较现成方案、为采购确定规格，则以 For 为主；若通过反复介入提出新的体验认识，则可能以 Through 为主。</p></details>
+      </div></noscript>
+    </section>
+
+    <section class="section" id="debate" aria-labelledby="debate-title">
+      <header class="section__head"><h2 class="section__title" id="debate-title">当设计既是方法，也是被研究与被支持的实践</h2><p class="section__intro">本案例不预设唯一答案。先阅读研究过程与原文证据，再展开小组判断，观察三种研究取向如何在同一项目中交叠。</p></header>
+
+      <article class="debate-study" aria-labelledby="debate-paper-title">
+        <header class="debate-study__identity">
+          <p class="debate-study__eyebrow">Classification controversy · 争议实例</p>
+          <h3 id="debate-paper-title">Integrated Co-design: A Model for Co-designing with Multiple Stakeholder Groups from the “Fuzzy” Front-end to Beyond Project Delivery</h3>
+          <p class="debate-study__citation">Kerr et al. · <em>International Journal of Design</em> · 2022</p>
+        </header>
+
+        <div class="debate-intro">
+          <div class="debate-intro__claim">
+            <p class="debate-intro__index" aria-hidden="true">04</p>
+            <h4>为什么它属于设计研究？</h4>
+            <p>研究者不是旁观 inclusionED 平台的开发，而是在真实项目中规划参与、组织共创、分析反馈、制作原型并调整协作机制。设计行动既产生平台，也产生关于“如何组织多方共创”的知识。</p>
+          </div>
+          <div class="debate-intro__body">
+            <section>
+              <h4>研究问题与背景</h4>
+              <p>面对教师、特殊教育工作者、自闭症学生、家长与政策制定者等多类参与者，研究如何让共创从问题界定的“模糊前端”持续到平台开发、实施乃至项目交付之后，并根据不同能力与参与条件配置线下、线上、混合式及异步方式。</p>
+            </section>
+            <section>
+              <h4>研究方法</h4>
+              <p>论文采用以 Research through Design 为核心的设计案例研究。2017-2020 年间完成 9 场前期工作坊，共 28 名参与者；研究团队对工作坊记录、视觉地图、转录与原型反馈进行编码和主题分析，再把发现转化为服务地图、平台内容与概念模型。</p>
+            </section>
+          </div>
+        </div>
+
+        <div class="debate-media" aria-label="争议论文图像证据">
+          <figure class="debate-figure debate-figure--process">
+            <button class="figure-button" type="button" data-full="assets/controversy-process.png" data-caption="inclusionED 项目从共创规划到设计、开发与实施的持续过程">
+              <img src="assets/controversy-process.png" alt="inclusionED 共创过程时间线，展示设计、开发与实施阶段" loading="lazy">
+            </button>
+            <figcaption>inclusionED 项目从共创规划到设计、开发与实施的持续过程</figcaption>
+          </figure>
+          <figure class="debate-figure debate-figure--model">
+            <button class="figure-button" type="button" data-full="assets/controversy-model.png" data-caption="整合式共创概念模型：可迁移的四阶段共创经验">
+              <img src="assets/controversy-model.png" alt="整合式共创概念模型，由共创前设计、设计、开发和实施四阶段组成" loading="lazy">
+            </button>
+            <figcaption>整合式共创概念模型：可迁移的四阶段共创经验</figcaption>
+          </figure>
+        </div>
+
+        <section class="debate-orientations" aria-labelledby="orientation-title">
+          <header>
+            <h4 id="orientation-title">三种取向如何同时成立</h4>
+            <p>点击不同取向，比较设计在研究中的位置、对应证据及知识用途。这里不是给论文贴三个并列标签，而是寻找主导的知识生成机制。</p>
+          </header>
+          <div class="orientation-explorer">
+            <div class="orientation-tabs" role="tablist" aria-label="切换研究取向">
+              <button class="orientation-tab orientation-tab--through" id="orientation-tab-through" type="button" role="tab" aria-selected="true" aria-controls="orientation-reading" data-orientation="through">
+                <span class="orientation-tab__status">主导取向</span>
+                <strong>Through</strong>
+                <span>设计作为研究方法</span>
+              </button>
+              <button class="orientation-tab orientation-tab--into" id="orientation-tab-into" type="button" role="tab" aria-selected="false" aria-controls="orientation-reading" data-orientation="into" tabindex="-1">
+                <span class="orientation-tab__status">交叉取向</span>
+                <strong>Into</strong>
+                <span>设计作为研究对象</span>
+              </button>
+              <button class="orientation-tab orientation-tab--for" id="orientation-tab-for" type="button" role="tab" aria-selected="false" aria-controls="orientation-reading" data-orientation="for" tabindex="-1">
+                <span class="orientation-tab__status">交叉取向</span>
+                <strong>For</strong>
+                <span>设计作为被支持的实践</span>
+              </button>
+            </div>
+            <article class="orientation-reading" id="orientation-reading" role="tabpanel" aria-live="polite" aria-labelledby="orientation-tab-through" data-active="through">
+              <p class="orientation-reading__label">当前阅读焦点</p>
+              <h5 id="orientation-reading-title">设计实践生成核心知识</h5>
+              <p id="orientation-reading-summary">通过持续的共创、原型、平台开发与反思形成模型。设计实践不是结果展示，而是论文主要的知识生成机制。</p>
+              <dl>
+                <div><dt>设计的位置</dt><dd id="orientation-reading-role">研究方法与知识媒介</dd></div>
+                <div><dt>原文线索</dt><dd id="orientation-reading-evidence">Abstract、Figure 12 与 Figure 13</dd></div>
+              </dl>
+            </article>
+          </div>
+        </section>
+
+        <details class="debate-verdict">
+          <summary>
+            <span class="debate-verdict__prompt"><small>先形成自己的判断</small><strong>你会把这篇论文归入哪一类？</strong></span>
+            <span class="debate-verdict__action"><span class="when-closed">查看小组判断</span><span class="when-open">收起小组判断</span></span>
+          </summary>
+          <div class="debate-verdict__content">
+            <div class="debate-verdict__mark"><span>小组判断</span><strong>Through</strong><small>主导取向</small></div>
+            <div class="debate-verdict__argument">
+              <h4>以 Through 为主，Into 与 For 为辅</h4>
+              <p>它难以被压进单一类型，因为“研究对象、研究方法、研究用途”分别指向不同分类；但三类并非简单并列。论文最核心的知识来自设计 inclusionED 的连续行动与反思，因此 Through 是主导取向，Into 与 For 是嵌入其中的辅助取向。</p>
+              <dl class="debate-verdict__lenses">
+                <div><dt>研究对象</dt><dd>Into</dd></div>
+                <div><dt>知识生成</dt><dd>Through</dd></div>
+                <div><dt>实践用途</dt><dd>For</dd></div>
+              </dl>
+              <p class="debate-verdict__takeaway">这不必被定义为“第四类”。更有效的做法，是按主要知识生成机制归类，同时补充参与结构、知识转化和时间跨度等分析维度。</p>
+            </div>
+          </div>
+        </details>
+
+        <div class="debate-evidence">
+          <section>
+            <h4>主要贡献</h4>
+            <ul>
+              <li>提出由“共创前的设计、设计、开发、实施”组成的 Integrated Co-design Concept Model，并把协作延伸到交付之后。</li>
+              <li>把“设计共创过程本身”设为独立前置阶段，明确谁参与、为何参与、如何参与及所需条件。</li>
+              <li>建立从共创发现到原型、服务地图、Diverse Learners Hub 与 inclusionED 平台的知识转化链。</li>
+            </ul>
+          </section>
+          <section>
+            <h4>研究局限</h4>
+            <ul>
+              <li>案例来自单一澳大利亚包容教育项目，迁移到其他文化和行业时仍需调整与验证。</li>
+              <li>参与者的时间、能力与权力并不相同；“被纳入”不等于拥有同等影响力。</li>
+              <li>论文缺少平台上线后长期使用、教育结果及社区持续参与的独立评估。</li>
+            </ul>
+          </section>
+          <section class="debate-locations">
+            <h4>可核查的原文位置</h4>
+            <ol>
+              <li><strong>Abstract 与 Introduction：</strong>说明模型通过 Research through Design 形成，并支持从项目早期到交付后的持续参与。</li>
+              <li><strong>Design Stage、Co-design Workshops：</strong>记录共创规划、试点、9 场工作坊及混合式参与安排。</li>
+              <li><strong>Analysis、Prototype、Development：</strong>呈现编码、主题分析如何转化为设计原则、原型与平台。</li>
+              <li><strong>Integrated Co-design Concept Model，Figure 13：</strong>给出四阶段模型及其关系。</li>
+            </ol>
+          </section>
+        </div>
+
+        <a class="paper__doi" href="https://doi.org/10.57698/v16i2.06">查看 DOI 与论文原文</a>
+      </article>
+    </section>
+
+    <section class="section" id="references" aria-labelledby="references-title">
+      <header class="section__head"><h2 class="section__title" id="references-title">参考文献</h2><p class="section__intro">以下信息依据小组提供文档录入；提交前应再次核对 DOI 页面、卷期与页码。</p></header>
+      <ol class="references">
+        <li>van Arkel, T., Tromp, N., Ozkaramanli, D., & van Eekelen, B. F. (2025). From Ideas to Change: Emergent Design Practices to Overcome Implementation Challenges When Designing in the Public Sector. <em>International Journal of Design, 19</em>(2), 57-77. <a href="https://doi.org/10.57698/v19i2.05">https://doi.org/10.57698/v19i2.05</a></li>
+        <li>Kucirkova, N. I., & Campbell, J. A. (2025). Research-based design principles for the integration of olfaction into young children's stories. <em>International Journal of Design, 19</em>(1), 45-58. <a href="https://doi.org/10.57698/v19i1.03">https://doi.org/10.57698/v19i1.03</a></li>
+        <li>Buso, A., McQuillan, H., Jansen, K., Verma, H., & Karana, E. (2025). Exploring everyday experiences of a multimorphic textile-form artifact. <em>International Journal of Design, 19</em>(3), 1-29. <a href="https://doi.org/10.57698/v19i3.01">https://doi.org/10.57698/v19i3.01</a></li>
+        <li>Kerr, J., Whelan, M., Zelenko, O., Harper-Hill, K., & Villalba, C. (2022). Integrated co-design: A model for co-designing with multiple stakeholder groups from the “fuzzy” front-end to beyond project delivery. <em>International Journal of Design, 16</em>(2), 75-90. <a href="https://doi.org/10.57698/v16i2.06">https://doi.org/10.57698/v16i2.06</a></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="foot-dense"><p>Week 02 · 三种设计研究的类型。网页以研究理解、论文比较与证据核查为目标。内容由小组人工确认，AI 用于信息组织、关系图实现、页面设计与交互开发。</p></footer>
+
+  <dialog class="image-dialog" id="image-dialog" aria-labelledby="image-dialog-caption">
+    <button class="image-dialog__close" type="button" aria-label="关闭大图">关闭</button>
+    <img src="" alt="">
+    <p id="image-dialog-caption"></p>
+  </dialog>
+</body>
+</html>
